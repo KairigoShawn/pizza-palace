@@ -45,3 +45,12 @@
   padding-bottom: 50px;
   text-align: center;
 }
+/* rgba(46, 49, 49, 1)
+   */
+#opacity {
+  background-color: rgba(46, 49, 49, 0.9);
+  border-radius: 10px;
+}
+.form-check {
+  text-align: left;
+}
