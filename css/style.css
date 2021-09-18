@@ -4,3 +4,11 @@
   font-family: Helvetica;
   color: #000000;
 }
+#landing-page {
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 50px;
+  color: #000000;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
