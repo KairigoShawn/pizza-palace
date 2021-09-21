@@ -152,42 +152,44 @@
       <div class="container" id="opacity">
         <div class="row">
           <div class="col-md-6 place-order">
-            <form action="">
+            <form id="form">
               <h2>Place Order Here</h2>
-              <select
+              <select id="flavour"
                 class="form-select form-select-sm"
                 aria-label=".form-select-lg example"
               >
                 <option selected>Select Your Flavour</option>
-                <option value="1">BBQ</option>
-                <option value="2">Original Cheese</option>
-                <option value="3">Pepperoni</option>
-                <option value="1">Hawaiian</option>
-                <option value="2">Meat Lovers</option>
-                <option value="3">Chicken & Mushroom</option>
+                <option value="bbq">BBQ</option>
+                <option value="cheese">Original Cheese</option>
+                <option value="pepperoni">Pepperoni</option>
+                <option value="hawaiian">Hawaiian</option>
+                <option value="meat-lovers">Meat Lovers</option>
+                <option value="chicken-mushroom">Chicken & Mushroom</option>
               </select>
               <br />
               <br />
-              <select
+              <select id="size"
                 class="form-select form-select-sm"
                 aria-label=".form-select-sm example"
               >
                 <option selected>Select Size</option>
-                <option value="1">Large -- Kshs. 1200</option>
-                <option value="2">Medium -- Kshs. 950</option>
-                <option value="3">Small -- Kshs. 800</option>
+                <option value="large">Large -- Kshs. 1200</option>
+                <option value="medium">Medium -- Kshs. 950</option>
+                <option value="small">Small -- Kshs. 800</option>
               </select>
               <br />
               <br />
-              <select
+              <select id="crust"
                 class="form-select form-select-sm"
                 aria-label=".form-select-sm example"
               >
                 <option selected>Select Crust</option>
-                <option value="1">Stuffed -- Kshs. 200</option>
-                <option value="2">italian -- Kshs. 100</option>
-                <option value="3">Glutten Free -- Kshs. 150</option>
+                <option value="stuffed">Stuffed -- Kshs. 200</option>
+                <option value="crispy">Crispy -- Kshs. 100</option>
+                <option value="glutten_free">Glutten Free -- Kshs. 150</option>
               </select>
+              <label for="quantity"><strong> Please select the number of pizzas (between 1 and 20):</strong></label>
+              <input type="number" class="form-control" id="quantity" name="quantity" min="1" max="20">
               <h2>Please Select Your Extra Toppings</h2>
               <h3>Each at Kshs. 100</h3>
               <div class="form-check">
